@@ -38,12 +38,18 @@ namespace StatisticArray
             Console.WriteLine(string.Join(", ", result));
         }
 
+        public static int CountOdds(int[] arr)
+        {
+            return arr.Count(x => x%2==1);
+        }
+
       
         public static void PrintEvensNum(int[] arr)
         {
             var result = arr.Where(x => x % 2 == 0).ToArray();
             Console.WriteLine(string.Join(", ", result));
         }
+
 
     }
 }
