@@ -38,5 +38,12 @@ namespace StatisticArray
             Console.WriteLine(string.Join(", ", result));
         }
 
+      
+        public static void PrintEvensNum(int[] arr)
+        {
+            var result = arr.Where(x => x % 2 == 0).ToArray();
+            Console.WriteLine(string.Join(", ", result));
+        }
+
     }
 }

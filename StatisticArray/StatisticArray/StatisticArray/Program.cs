@@ -20,8 +20,8 @@ namespace StatisticArray
             OptionsManager.PrintArr(arr);
             OptionsManager.SortArr(arr);
             OptionsManager.PrintOddsNum(arr);
-            
-           
+            OptionsManager.PrintEvensNum(arr);
+
         }
     }
 }
