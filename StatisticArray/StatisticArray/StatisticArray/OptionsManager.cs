@@ -38,5 +38,9 @@ namespace StatisticArray
             Console.WriteLine(string.Join(", ", result));
         }
 
+        public static int CountOdds(int[] arr)
+        {
+            return arr.Count(x => x%2==1);
+        }
     }
 }
